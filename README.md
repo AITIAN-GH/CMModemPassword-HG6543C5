@@ -16,6 +16,12 @@ Get CMModem-HG6543C5 Admin Password
  
 <br/>
 
+# 过程小发现 （个人探索，不对的话欢迎讨论）
+> 1.在光猫-HG6543C5 reset后并且未完成注册时，可以通过网上流传的 `CMCCAdmin aDm8H%MdA`超级管理员进入后台，一旦OLT注册完成后就会自动重置密码，格式为 `CMCCAdmin+算法随机生成部分`；
+> 2.光猫重置后需要注册才能正常使用，OLT密码一般就是光猫上面写着的宽带帐户密码（我的是），PPPOE拨号密码一般是手机后十位与这个密码不同，这应该是留着用户自己换猫时候用的吧。
+> 3.改变使光猫桥接，用路由器PPPOE拨号时，可以关掉光猫的无线功能防止所谓的WIFI信号干扰，个人觉得最多算是同信道占用率高吧。不关闭光猫的DHCP服务，方便之后修改路由器为自动获取IP模式即可对光猫进行无线配置；切来切去的也不是很麻烦哈！当然你有线连接的话当我没说，嘿嘿！
+<br/>
+
 # 设计思路来源于
 
 [Criogaid/CMModemPasswordRetrieval](https://github.com/Criogaid/CMModemPasswordRetrieval) && [B站 布束砥信](https://www.bilibili.com/read/cv21044770/)
