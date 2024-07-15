@@ -12,7 +12,7 @@ Get CMModem-HG6543C5 Admin Password
 
 - 4.运行脚本，搞定!! >_^
 
-**注意：**  开始前请先自行安装 `Python` 运行环境，并且开启 `Telnet` 功能
+**注意：**  开始前请先自行安装 `Python` 运行环境，并且开启 `Telnet` 功能，然后将设备与光猫处在同一网段内。
  
 <br/>
 
