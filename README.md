@@ -2,15 +2,21 @@
 获取移动光猫 *HG6543C5* 的管理员密码
 
 Get CMModem-HG6543C5 Admin Password
-# 步骤
-- 找到光猫背后的 MAC 地址，手动去除'-'，得到例如：`00-1A-79-00-00-00 ==> 001A79000000`
-- 在程序的 `def __init__(self, host="192.168.1.1", port=23, mac_address = "你的MAC地址")` 处，替换上面得到的字符串
-- 运行 搞定
+<br/>
+# 步骤      
+- 1.找到光猫背后的 MAC 地址，手动去除'-'，得到例如：`00-1A-79-00-00-00 ==> 001A79000000`
+
+- 2.在程序的第8行 `def __init__(self, host="192.168.1.1", port=23, mac_address = "你的MAC地址")` 处，替换上面得到的字符串
+
+- 3.运行脚本 搞定
+
+**注意：**  开始前请先自行安装 `Python` 运行环境，并且开启 `Telnet` 功能
+ 
+<br/>
 
 # 设计思路来源于
-[Criogaid/CMModemPasswordRetrieval](https://github.com/Criogaid/CMModemPasswordRetrieval)
 
-[B站 布束砥信](https://www.bilibili.com/read/cv21044770/)
+[Criogaid/CMModemPasswordRetrieval](https://github.com/Criogaid/CMModemPasswordRetrieval) && [B站 布束砥信](https://www.bilibili.com/read/cv21044770/)
 
 # 许可证
 
