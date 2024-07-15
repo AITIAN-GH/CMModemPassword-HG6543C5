@@ -1,4 +1,4 @@
-# CMModem-HG6543C5
+# CMModemPassword-HG6543C5
 获取移动光猫 *HG6543C5* 的管理员密码
 
 Get CMModem-HG6543C5 Admin Password
